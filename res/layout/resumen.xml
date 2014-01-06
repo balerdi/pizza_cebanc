@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mdpi_fondo"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ResumenActivity" >
+
+    <com.example.pizza_cebanc.CustomTextView
+        android:id="@+id/pedido"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.5"
+        android:text="@string/resumenPizzas"
+        android:textSize="28sp" />
+
+    <ExpandableListView
+        android:id="@+id/listaPedido"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.5" >
+    </ExpandableListView>
+
+    <com.example.pizza_cebanc.CustomTextView
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="@string/lista"
+        android:textSize="28sp" />
+    
+ <com.example.pizza_cebanc.CustomTextView
+     android:id="@+id/condiciones"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="5dp"
+     android:text="@string/condiciones"
+     android:textSize="18sp" />
+
+ <RelativeLayout
+     android:id="@+id/RelativeLayout1"
+     android:layout_width="match_parent"
+     android:layout_height="0dp"
+     android:layout_marginTop="15dp"
+     android:layout_weight="1" >
+
+     <Button
+         android:id="@+id/btnSalir"
+         style="?android:attr/buttonStyleSmall"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_alignTop="@+id/btnSiguiente"
+         android:layout_marginLeft="20dp"
+         android:background="@drawable/salir"
+         android:text="@string/btnSalir"
+         android:textSize="24sp" />
+
+     <Button
+         android:id="@+id/btnSiguiente"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+         android:layout_centerVertical="true"
+         android:layout_marginRight="20dp"
+         android:background="@drawable/enviar"
+         android:text="@string/btnSiguiente"
+         android:textSize="24sp" />
+ </RelativeLayout>
+
+</LinearLayout>

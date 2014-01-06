@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:minHeight="@dimen/minimo_lista">
+
+	<LinearLayout
+	    android:layout_width="0dp"
+	    android:layout_height="match_parent"
+	    android:layout_marginTop="5dp"
+	    android:layout_weight="1"
+	    android:orientation="vertical" >
+
+	    <com.example.pizza_cebanc.CustomTextView
+	        android:id="@+id/nombre"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="10dp"
+	        android:textSize="26sp" />
+
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="5dp"
+	        android:layout_marginTop="3dp" >
+
+	        <ImageView
+	            android:id="@+id/imagen"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" 
+	            android:maxWidth="60dip"
+	            android:maxHeight="60dip"
+	            android:adjustViewBounds="true"/>
+
+	        <com.example.pizza_cebanc.CustomTextView
+	            android:id="@+id/precio"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="5dp"
+	            android:layout_marginRight="5dp"
+	            android:textSize="26sp" />
+
+	        <com.example.pizza_cebanc.CustomTextView
+	            android:id="@+id/x"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginRight="10dp"
+	            android:layout_marginTop="2dp"
+	            android:text="X"
+	            android:textSize="26sp" />
+
+	        <com.example.pizza_cebanc.CustomTextView
+	            android:id="@+id/numCantidad"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="5dp"
+	            android:layout_marginRight="5dp"
+	            android:layout_marginTop="2dp"
+	            android:textSize="26sp" />
+
+	        <Button
+	            android:id="@+id/btnRes"
+	            style="?android:attr/buttonStyleSmall"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/res" />
+
+	        <Button
+	            android:id="@+id/btnX"
+	            style="?android:attr/buttonStyleSmall"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/close" />
+
+	    </LinearLayout>
+
+	</LinearLayout>
+
+</LinearLayout>

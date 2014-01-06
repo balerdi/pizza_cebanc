@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">pizza _cebanc</string>
+    <string name="action_settings">Opciones</string>
+    <string name="btn_logo"></string>
+    <string name="nombre">Nombre:</string>
+    <string name="direccion">Dirección:</string>
+    <string name="telefono">Telefono:</string>
+    <string name="hintNombre">Introduzca su nombre completo</string>
+    <string name="hintdireccion">Introduzca su direccion</string>
+    <string name="hintTelefono">Introduzca su telefono</string>
+    <string name="pizzas">Elija una pizza</string>
+    <string name="tamano">Elija un tamaño</string>
+    <string name="tipo">Elija el tipo de masa</string>
+    <string name="resumenPizzas">Resumen de selección:</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="listaVacia">Pedido vacío</string>
+    <string name="btnSiguiente"></string>
+    <string name="btnSalir"></string>
+    <string name="title_activity_bebidas">Bebidas</string>
+    <string name="bebidastxt">Selecione sus bebidas:</string>
+    <string name="pizzastxt">Configure su pizza:</string>
+    <string name="pedido">Pedido:</string>
+    <string name="lista"></string>
+     <string name="condiciones">*  Los pedidos superiores a 20€ regalo seguro</string>
+    <string name="title_activity_pizzas">MainActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- Array de pizzas -->
+    <string-array name="pizzas">
+        <item>Carbonara</item>
+        <item>Barbacoa</item>
+        <item>Cuatro Quesos</item>
+        <item>Vegetal</item>
+        <item>Tropical</item>
+    </string-array>
+    <string-array name="precioPizzas">
+        <item>3 €</item>
+        <item>3.5 €</item>
+        <item>2.5 €</item>
+        <item>2 €</item>
+        <item>3.5 €</item>
+    </string-array>
+    <string-array name="tamanos">
+        <item>Individual</item>
+        <item>Mediana</item>
+        <item>Familiar</item>
+    </string-array>
+    <string-array name="precioTamano">
+        <item>4 €</item>
+        <item>7 €</item>
+        <item>11 €</item>
+    </string-array>
+    <string-array name="tipos">
+        <item>Masa fina</item>
+        <item>Masa normal</item>
+    </string-array>
+    <string-array name="precioTipo">
+        <item>1 €</item>
+        <item>2 €</item>
+    </string-array>
+    <!-- Array de bebidas -->
+
+    <string-array name="bebidas">
+        <item>Cerveza</item>
+        <item>Coca Cola</item>
+        <item>Kas Limon</item>
+        <item>Insalus</item>
+        <item>Kas Naranja</item>
+        <item>Nestea</item>
+    </string-array>
+    <string-array name="precioBebidas">
+        <item>2.00</item>
+        <item>2.50</item>
+        <item>2.50</item>
+        <item>1.80</item>
+        <item>2.50</item>
+        <item>2.00</item>
+    </string-array>
+
+    <string name="title_activity_resumen">ResumenActivity</string>
+
+</resources>
