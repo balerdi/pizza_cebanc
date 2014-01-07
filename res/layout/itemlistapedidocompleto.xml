@@ -13,7 +13,7 @@
         android:layout_weight="1"
         android:orientation="vertical" >
 
-        <com.example.pizza_cebanc.CustomTextView
+        <com.hersoft.pizza.CustomTextView
             android:id="@+id/nombre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -35,14 +35,14 @@
                 android:maxHeight="50dip"
                 android:maxWidth="50dip" />
 
-            <com.example.pizza_cebanc.CustomTextView
+            <com.hersoft.pizza.CustomTextView
                 android:id="@+id/precio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:textSize="26sp" />
 
-            <com.example.pizza_cebanc.CustomTextView
+            <com.hersoft.pizza.CustomTextView
                 android:id="@+id/x"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -52,7 +52,7 @@
                 android:text="X"
                 android:textSize="26sp" />
 
-            <com.example.pizza_cebanc.CustomTextView
+            <com.hersoft.pizza.CustomTextView
                 android:id="@+id/numCantidad"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -61,7 +61,7 @@
                 android:layout_marginTop="2dp"
                 android:textSize="26sp" />
 
-            <com.example.pizza_cebanc.CustomTextView
+            <com.hersoft.pizza.CustomTextView
                 android:id="@+id/igual"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -71,7 +71,7 @@
                 android:textSize="26sp"
                 android:text="=" />
 
-            <com.example.pizza_cebanc.CustomTextView
+            <com.hersoft.pizza.CustomTextView
                 android:id="@+id/precioTotal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

@@ -13,13 +13,13 @@
          >
     </ImageView>
 
-     <com.example.pizza_cebanc.CustomTextView 
+     <com.hersoft.pizza.CustomTextView 
         android:id="@+id/item_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="2dp"
         android:layout_marginLeft="10dp"
         android:textSize="12sp" >
-    </com.example.pizza_cebanc.CustomTextView>
+    </com.hersoft.pizza.CustomTextView>
 
 </LinearLayout>

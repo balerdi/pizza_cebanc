@@ -24,7 +24,7 @@
             android:layout_marginTop="15dp"
             android:background="@drawable/menu3" />
 
-        <com.example.pizza_cebanc.CustomTextView
+        <com.hersoft.pizza.CustomTextView
             android:id="@+id/txtPizzas"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -36,7 +36,7 @@
 
     </RelativeLayout>
 
-    <com.example.pizza_cebanc.CustomTextView
+    <com.hersoft.pizza.CustomTextView
         android:id="@+id/pedido"
         android:layout_width="wrap_content"
         android:layout_height="0dp"

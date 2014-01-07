@@ -20,7 +20,7 @@
         android:background="@drawable/mdpi_logo"
         android:text="@string/btn_logo" />
 
-    <com.example.pizza_cebanc.CustomTextView
+    <com.hersoft.pizza.CustomTextView
         android:id="@+id/nombre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -41,7 +41,7 @@
         <requestFocus />
     </EditText>
 
-    <com.example.pizza_cebanc.CustomTextView
+    <com.hersoft.pizza.CustomTextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -59,7 +59,7 @@
         android:hint="@string/hintdireccion"
         android:inputType="textPostalAddress" />
 
-    <com.example.pizza_cebanc.CustomTextView
+    <com.hersoft.pizza.CustomTextView
         android:id="@+id/lista1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -74,6 +74,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1.5"
         android:ems="10"
+        android:maxLength="9"
         android:hint="@string/hintTelefono"
         android:inputType="number" />
 
